@@ -9,3 +9,15 @@ adoptada?
 H- ¿Qué sucede si cada uno utiliza el push -f?
 I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
 en DESARROLLO ?
+
+
+A- BLUE
+B- YELLOW
+C- BLUE
+D- El de BETA
+E- Sí. Todos tuvimos problemas. ALFA no creó el archivo y no lo dejaba avanzar.
+F- Surgieron conflictos de merge porque los tres editamos la misma sección del archivo index.html.
+Los cambios de ALFA llegaron primero al repositorio remoto, por lo que BETA y GAMMA debieron resolver conflictos antes de poder subir los suyos.
+G- Trabajar a fondo el Merge editando bien los archivos y hacer constantemente git pull.
+H- Cada push sobrescribe completamente la historia del repositorio remoto con la versión individual del usuario.
+I- Hacer git pull en TESTING antes del push. Después resolver los conflictos agregando los <p> de ALFA, BETA y GAMMA. Hacer push y GAMMA hace merge TESTING a DESARROLLO.
